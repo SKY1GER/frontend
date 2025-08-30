@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 196900110977.dkr.ecr.us-east-1.amazonaws.com/expense-frontend: {{ .Values.deployment.imageVersion }}
+        image: 196900110977.dkr.ecr.us-east-1.amazonaws.com/expense-frontend:{{ .Values.deployment.imageVersion }}
         # envFrom:
         #   - configMapRef:
         #       name: frontend
