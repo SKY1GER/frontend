@@ -12,7 +12,7 @@ pipeline{
         def appVersion = "" //variable declaration
         //nexusUrl = 'nexus.daws80s.online:8081'
         region = "us-east-1"
-        account_id = "315069654700"
+        account_id = "196900110977"
     }
 
     stages{
