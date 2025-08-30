@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: expense-namespace
+  namespace: expense
   labels:
     tier: web
     component: frontend
