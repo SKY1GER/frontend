@@ -58,7 +58,7 @@ pipeline{
                 aws eks update-kubeconfig --region us-east-1 --name expense-dev
                 cd helm
                 sed -i 's/Image_Version/${appVersion}/g' values.yaml
-                helm uninstall frontend
+                helm uninstall frontend:1.2.0
             """
             }
         }
